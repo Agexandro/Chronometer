@@ -6,6 +6,8 @@ Hi, this is a simple chronometer made with:
 - CSS
 - JAVASCRIPT
 
+**[Watch the demo here](https://agexandro.github.io/Chronometer/)**
+
 ---
 
 You need nothing more than a web browser to be able run this project.  
