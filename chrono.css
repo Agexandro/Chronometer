@@ -1,0 +1,45 @@
+.chronoTitle{
+    text-shadow: 5px 5px 0px lightgray;
+    font-size: x-large;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#container {
+    margin: auto;
+    width: 230px;
+    height: 230px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 0px 10px black;
+    border: 1px solid black;
+    display:  flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    background-image: linear-gradient(blue, white,blue);
+}
+
+#chrono {
+    width: 200px;
+    height: 200px;
+    display:  flex;
+    border-radius: 50%;
+    border: 1px solid black;    
+    align-items: center;
+    justify-content: center;
+    background-color: royalblue;   
+}
+
+span {
+    margin: 5px;
+    width: 50px;
+    height: 40px;
+    font-size: x-large;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color:white;
+    user-select: none;
+}
