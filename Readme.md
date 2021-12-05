@@ -8,6 +8,8 @@ Hi, this is a simple chronometer made with:
 
 **[Watch the demo here](https://agexandro.github.io/Chronometer/)**
 
+![Image](https://raw.githubusercontent.com/Agexandro/Chronometer/main/chrono.png)
+
 ---
 
 You need nothing more than a web browser to be able run this project.  
