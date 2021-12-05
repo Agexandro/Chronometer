@@ -6,6 +6,7 @@
 }
 
 #container {
+    position: relative;
     margin: auto;
     width: 230px;
     height: 230px;
@@ -42,4 +43,9 @@ span {
     background-color: black;
     color:white;
     user-select: none;
+}
+
+.buttons {
+    position: absolute;
+    bottom: 20%;
 }
