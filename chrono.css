@@ -46,6 +46,16 @@ span {
 }
 
 .buttons {
-    position: absolute;
     bottom: 20%;
+    position: absolute;
+}
+
+button {
+    border-radius: 4px;
+    width: 60px;
+    height: 30px;
+    font-size: 1rem;
+    border: none;
+    background-color: rgb(73, 4, 119);
+    color: white;
 }
