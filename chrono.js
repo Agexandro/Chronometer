@@ -68,13 +68,15 @@ window.onload = () => {
         clearInterval(start);
     }
 
-    $playBtn.onclick = () => {
+    $playBtn.onclick = (e) => {
         isStarted = !isStarted;
         //The count has started?
         if (isStarted) {
             startCount();
+            e.target.textContent = "Pause";
         } else {
             stopCount();
+            e.target.textContent = "Play";
         }
     }
 }
