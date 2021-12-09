@@ -25,7 +25,7 @@ window.onload = () => {
 
     //Formats Time
     function formatTime(unitOfTime) {
-        return unitOfTime < 10 ? "0" + unitOfTime : unitOfTime;
+        return String(unitOfTime).padStart(2, 0);
     }
 
     //adds respective time to time containers
@@ -56,11 +56,8 @@ window.onload = () => {
 
     //starts the chronometer
     function startCount() {
-        start =
-            //Updates time and time containers every second
-            setInterval(
-                countTime
-                , $intervalTime);
+        //Updates time and time containers every second
+        start = setInterval(countTime, $intervalTime);
     }
 
     //Pauses chrono
@@ -78,5 +75,12 @@ window.onload = () => {
             stopCount();
             e.target.textContent = "Play";
         }
+    }
+
+    $resetBtn.onclick = () => {
+        isStarted = true;
+        $hours = $mins = $seconds = 0;
+        $playBtn.click();
+        updateTimeElements();
     }
 }
